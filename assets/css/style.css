@@ -1,0 +1,72 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+.pageTopImage {
+    position: relative;
+}
+
+.pageTopImage img {
+    width: 100vw;   
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+} 
+
+.pageTopImage .credit-badge {
+    position: absolute;
+    right: 10px;
+    bottom: -250px;
+}
+
+@font-face {
+  font-family: 'Lemon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lemon Regular'), local('Lemon-Regular'), url(http://fonts.gstatic.com/s/lemon/v5/WRZq1AYYveIOSocZAeAyAw.ttf) format('truetype');
+}
+
+.pageTopImage .greetings {
+    width: 395px;
+	height: 67px;
+	background-color: #f00;
+	-webkit-animation-name: rgb-animation; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
+	animation-name: rgb-animation;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	position: relative;
+	margin-left: 69px;
+	margin-top: -367px;
+	text-align: center;
+}
+
+.pageTopImage .greetings h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 8px;
+    vertical-align: middle;
+    font-family: 'Delius Unicase', cursive;
+}
+
+@keyframes rgb-animation {
+	0% {background-color: #f00;}
+	7% {background-color: #ff7100;}
+	14% {background-color: #ffa900;}
+	21% {background-color: #fff800;}
+	28% {background-color: #8bff00;}
+	35% {background-color: #00ff07;}
+	42% {background-color: #00ff9a;}
+	49% {background-color: #00ffe8;}
+	56% {background-color: #0df;}
+	63% {background-color: #0040ff;}
+	70% {background-color: #3100ff;}
+	77% {background-color: #6900ff;}
+	84% {background-color: #b800ff;}
+	91% {background-color: #ff00ec;}
+	100% {background-color: #ff009d;}
+}
