@@ -211,3 +211,44 @@ body {
 .content-align-center .project-card a {
     text-decoration: none;
 }
+
+.footer {
+    background-color: #333232;
+    height: 100px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.left-footer {
+    width: 20%;
+    padding-left: 60px;
+    padding-top: 10px;
+    float: left;
+}
+
+.left-footer p {
+    color: white;
+    font-family: 'Mada', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.left-footer a { 
+    text-decoration: none;
+}
+
+.right-footer {
+    position: absolute;
+    right: 30px;
+    margin-top: 40px;
+}
+
+.right-footer a {
+    color: #333232;
+}
+
+.right-footer a img {
+    width: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
