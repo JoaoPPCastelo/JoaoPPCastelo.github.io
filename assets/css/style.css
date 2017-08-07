@@ -44,10 +44,10 @@ body {
 }
 
 .page-top-image .greetings h1 {
+    padding-top: 8px;
     color: white;
     font-size: 40px;
     text-align: center;
-    padding-top: 8px;
     vertical-align: middle;
     font-family: 'Delius Unicase', cursive;
 }
@@ -83,34 +83,35 @@ body {
 }
 
 .circle-image {
-    display:block;
     width: 180px;
     height: 180px;
-    border-radius: 50%;
-    overflow: hidden;
     padding:5px 4px;
+    border-radius: 50%;
+    display:block;
+    overflow: hidden;
 }
 
 .circle-image img {
     width: 290px;
-    transform: rotate(-90deg);
     margin-top: 16px; 
     margin-left: -52px; 
+    transform: rotate(-90deg);
 }
 
 .about-me p {
-    word-wrap: break-word;
-    text-align: justify;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 25%;
+    word-wrap: break-word;
+    text-align: justify;
     font-family: 'Mada', sans-serif;
+    color: #646464;
 }
 
 .about-me .see-more {
+    right: 16%;
     display: inline-block;
     position: absolute;
-    right: 16%;
 }
 
 .about-me .see-more a {
@@ -154,11 +155,11 @@ body {
 }
 
 .project-card .project-card-ico {
+    width: 100%;
+    height: 0;
     display: flex;
     overflow: hidden;
     position: relative;
-    width: 100%;
-    height: 0;
     padding-bottom: 64%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -277,6 +278,7 @@ body {
     font-family: 'Mada', sans-serif;
     word-wrap: break-word;
     text-align: justify;
+    color: #646464;
 }
 
 .project-links {
@@ -318,4 +320,14 @@ body {
 .project-github-link img {
     width: 20vh;
     margin: 5px; 
+}
+
+.about-me-description {
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    word-wrap: break-word;
+    font-family: 'Mada', sans-serif;
+    color: #646464;
 }
