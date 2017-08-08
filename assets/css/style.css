@@ -4,7 +4,7 @@ body {
 }
 
 .page-top-image {
-    position: relative;
+    height: 80vh;
     display: inline-table;
 }
 
@@ -17,7 +17,7 @@ body {
 .page-top-image .credit-badge {
     position: absolute;
     right: 10px;
-    bottom: 15px;
+    bottom: 140px;
 }
 
 @font-face {
@@ -74,12 +74,16 @@ body {
     margin-top: 55px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     display: -webkit-inline-box;
 }
 
 .about-me .introduction {
     display: inherit;
+}
+
+.introduction-content {
+    width: 75%;
 }
 
 .circle-image {
@@ -101,7 +105,6 @@ body {
 .about-me p {
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 25%;
     word-wrap: break-word;
     text-align: justify;
     font-family: 'Mada', sans-serif;
@@ -109,9 +112,7 @@ body {
 }
 
 .about-me .see-more {
-    right: 16%;
-    display: inline-block;
-    position: absolute;
+    text-align: right;
 }
 
 .about-me .see-more a {
@@ -119,6 +120,7 @@ body {
     color: #838383;
     text-decoration: none;
     font-family: 'Mada', sans-serif;
+    width: 30px;
 }
 
 .title-center {
@@ -126,7 +128,6 @@ body {
 }
 
 .title-center h1 {
-    margin-top: 50px;
     text-align: center;
     font-family: 'Mada', sans-serif;
     color: #ababab;
@@ -203,14 +204,28 @@ body {
 }
 
 .project-card-beacon-compact .project-card-details h3 {
-    color: #ababab;
-    align-items: center;
-    font-size: 200%;
+	width: 100%;
+	height: 100%;
+    display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	padding-left: .3125rem;
+	padding-right: .3125rem; 
+	overflow: hidden;
+	color: #ababab;
+	text-align: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	white-space: normal;
     font-family: 'Mada', sans-serif;
     font-weight: normal;
-    margin-top: 25%;
     text-decoration: none;
-    height: inherit;
+	text-overflow: ellipsis;
+	font-size: 200%;
 }
 
 .content-align-center .project-card a {
