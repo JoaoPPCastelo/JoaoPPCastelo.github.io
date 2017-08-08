@@ -347,3 +347,15 @@ body {
     font-family: 'Mada', sans-serif;
     color: #646464;
 }
+
+.skills {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.skills img {
+    width: 145px;
+    margin: 25px;
+}
