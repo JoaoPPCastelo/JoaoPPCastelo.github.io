@@ -4,7 +4,7 @@ body {
 }
 
 .page-top-image {
-    position: relative;
+    height: 80vh;
     display: inline-table;
 }
 
@@ -17,7 +17,7 @@ body {
 .page-top-image .credit-badge {
     position: absolute;
     right: 10px;
-    bottom: 15px;
+    bottom: 140px;
 }
 
 @font-face {
