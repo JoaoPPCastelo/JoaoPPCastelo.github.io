@@ -124,7 +124,7 @@ body {
 }
 
 .title-center {
-    margin-top: 5px;
+    margin-top: 45px;
 }
 
 .title-center h1 {
@@ -135,7 +135,7 @@ body {
 }
 
 .content-align-center {
-    text-align: left;
+    text-align: center;
     margin-left: 8%;
     margin-right: 8%;
 }
