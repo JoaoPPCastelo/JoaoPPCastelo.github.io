@@ -1,0 +1,282 @@
+{
+    "basics": {
+        "name": "João Castelo",
+        "label": "Software Development Engineer",
+        "picture": "",
+        "email": "joaocastelo.dev@outlook.com",
+        "website": "https://joaoppcastelo.github.io",
+        "summary": "Passionated about the tech world and in love with life. I'm a simple guy, but sometimes perfectionist, that will help you with any question you may have but also try to enjoy and relax with a beautiful sunset at the beach.",
+        "location": {
+            "city": "Lisboa",
+            "countryCode": "PT"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "joaoppcastelo",
+                "url": "https://linkedin.com/in/joaoppcastelo/"
+            },
+            {
+                "network": "Twitter/X",
+                "username": "joaoppcastelo",
+                "url": "https://twitter.com/JoaoPPCastelo"
+            },
+            {
+                "network": "Instagram",
+                "username": "joaoppcastelo",
+                "url": "https://www.instagram.com/joaoppcastelo"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "CGI",
+            "position": "Consultant",
+            "website": "https://www.cgi.com/portugal/pt-pt",
+            "startDate": "2017-08-28",
+            "endDate": "2022-10-14",
+            "summary": "On my journey as consultant, i've helped CGI clients creating solutions from HR & Payroll for the public sector, to a early childhood education application for professionals and guardians to plan and communicate daily activities, bringing best practices on managing code on a Salesforce world and tools to migrate data.",
+            "highlights": [
+                "Project #1 - Full Stack Developer & Sys Admin",
+                "Project #2 - Full Stack Developer",
+                "Project #3 - DevOps Lead Analys",
+                "Project #4 - Release Manager and Software Developer"
+            ]
+        },
+        {
+            "company": "Myneva",
+            "position": "Software Development Engineer",
+            "website": "https://www.myneva.eu/",
+            "startDate": "2022-10-17",
+            "endDate": "",
+            "summary": "At Myneva, i've started as a Software Development Engineer creating a software package for reablement services which helps provide the best quality care and meets the high requirements of care services. Since January 2023, i joined the Platform Team helping managing all the AWS stack, integrating AWS CDK to new projects, helping and educating devs on AWS services and supporting the migration of projects to Myneva's domains.",
+            "highlights": [
+                "Software Development Engineer",
+                "Platform Engineer"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Web Summit",
+            "position": "Response Team",
+            "website": "https://websummit.com/",
+            "startDate": "2016-11-07",
+            "endDate": "2016-11-10",
+            "summary": "Supporting the event with whatever was needed. From helping registering attendees, to answer any question they may have or even helping setting up the space."
+        },
+        {
+            "organization": "Web Summit",
+            "position": "Response Team",
+            "website": "https://websummit.com/",
+            "startDate": "2017-11-06",
+            "endDate": "2017-11-09",
+            "summary": "Supporting the event with whatever was needed. From helping registering attendees, to answer any question they may have or even helping setting up the space."
+        },
+        {
+            "organization": "Web Summit",
+            "position": "Registration & Venture",
+            "website": "https://websummit.com/",
+            "startDate": "2018-11-05",
+            "endDate": "2018-11-08",
+            "summary": "Support with registering attendees who arrive at the airport and helping a peripheral event to run smoothly by helping attendees with their questions and making sure everything was ready for the multiple roundtables happening throughout the day."
+        },
+        {
+            "organization": "Web Summit",
+            "position": "Volunteer Lead",
+            "website": "https://websummit.com/",
+            "startDate": "2019-11-04",
+            "endDate": "2019-11-07",
+            "summary": "Helping volunteer coordination in handling all the volunteer teams, leading volunteer teams to their positions, acting as a point of contact between volunteers and staff."
+        },
+        {
+            "organization": "Web Summit",
+            "position": "CIS Dinner - Directional / Usher & Volunteer Lead",
+            "website": "https://websummit.com/",
+            "startDate": "2021-10-31",
+            "endDate": "2021-11-04",
+            "summary": "Supporting a peripheral event by guidding attendees to the correct place and helping volunteer coordination in handling all the volunteer teams, leading volunteer teams to their positions, acting as a point of contact between volunteers and staff."
+        },
+        {
+            "organization": "Web Summit",
+            "position": "Registration & Operations",
+            "website": "https://websummit.com/",
+            "startDate": "2022-11-01",
+            "endDate": "2022-11-04",
+            "summary": "Performing the accreditation of attendees at the airport and helping setting up the stages and booths at FIL."
+        },
+        {
+            "organization": "Web Summit",
+            "position": "Response and Support & Volunteer Lead",
+            "website": "https://websummit.com/",
+            "startDate": "2023-11-11",
+            "endDate": "2023-11-16",
+            "summary": "Supporting the registration at the airport and helping volunteer coordination in handling all the volunteer teams, leading volunteer teams to their positions, acting as a point of contact between volunteers and staff, and supporting the backstage for the central stage."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Algarve",
+            "area": "Engineering and Technologies",
+            "studyType": "Bachelor",
+            "startDate": "2014-09-08",
+            "endDate": "2017-07-01",
+            "courses": [
+                "1478 - Computer Science"
+            ]
+        },
+        {
+            "institution": "Online Training",
+            "courses": [
+                "[Udemy] Angular - The Complete Guide",
+                "[Udemy] Kubernetes for the Absolute Beginners - Hands-on",
+                "[Udemy] Learn DevOps: CI/CD with Jenkins using Pipelines and Docker",
+                "[Udemy] Getting Started with HashiCorp Vault"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming languages",
+            "keywords": [
+                "Java",
+                "C#",
+                "JavaScript",
+                "TypeScript",
+                "Python",
+                "HTML/CSS",
+                "Bash/Shell"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "keywords": [
+                "Spring/SpringBoot",
+                "Quarkus",
+                "Angular",
+                "React",
+                "Thymeleaf",
+                "AWS CDK"
+            ]
+        },
+        {
+            "name": "Database management",
+            "keywords": [
+                "SQL (PostgreSQL)",
+                "NoSQL (DynamoDB)",
+                "Flyway"
+            ]
+        },
+        {
+            "name": "Cloud computing",
+            "keywords": [
+                "AWS",
+                "Azure"
+            ]
+        },
+        {
+            "name": "Project management",
+            "keywords": [
+                "Atlassian stack (Jira, Confluence, Bitbucket)",
+                "Azure DevOps",
+                "Agile",
+                "Scrum"
+            ]
+        },
+        {
+            "name": "Monitoring / Telemetry",
+            "keywords": [
+                "Grafana / Prometheus",
+                "ELK Stack",
+                "Coralogix"
+            ]
+        },
+        {
+            "name": "Development Tools",
+            "keywords": [
+                "Git",
+                "Docker / K8s",
+                "Maven",
+                "Linux",
+                "Jenkins",
+                "Azure Pipelines",
+                "GitHub Actions",
+                "Ansible"
+            ]
+        },
+        {
+            "name": "Server / Hosting tools",
+            "keywords": [
+                "Tomcat",
+                "Apache"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Portuguese",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional working proficiency"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Creative Arts",
+            "keywords": [
+                "Photography"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Streaming",
+                "Concerts"
+            ]
+        },
+        {
+            "name": "Reading",
+            "keywords": [
+                "Biographies",
+                "Tech"
+            ]
+        },
+        {
+            "name": "Travel",
+            "keywords": [
+                ""
+            ]
+        },
+        {
+            "name": "Outdoor Activities",
+            "keywords": [
+                "City walking",
+                "Cycling",
+                "Sightseeing",
+                "Sunbathing",
+                "Walking"
+            ]
+        },
+        {
+            "name": "Technology",
+            "keywords": [
+                "Playing with open source"
+            ]
+        },
+        {
+            "name": "Fitness/Wellness",
+            "keywords": [
+                "Gym",
+                "Meditation"
+            ]
+        },
+        {
+            "name": "Film and Cinema",
+            "keywords": [
+                ""
+            ]
+        }
+    ]
+}
