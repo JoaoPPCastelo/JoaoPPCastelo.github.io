@@ -12,7 +12,16 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "bundle exec jekyll --version"
+	"postCreateCommand": "bundle exec jekyll --version",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"seatonjiang.gitmoji-vscode",
+				"eamodio.gitlens",
+				"Gruntfuggly.todo-tree"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
