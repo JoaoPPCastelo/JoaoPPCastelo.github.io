@@ -34,6 +34,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-last-modified-at
 
 # Pagination settings
 paginate: 5  # amount of posts to show per page
@@ -46,7 +47,7 @@ search: true
 author:
   name: João Castelo
   twitter: JoaoPPCastelo
-  picture: /assets/images/johndoe.png
+  picture: /assets/images/joaoppcastelo.png
 
 # Front Matter Defaults
 defaults:
@@ -66,7 +67,8 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
