@@ -18,7 +18,8 @@
 			"extensions": [
 				"seatonjiang.gitmoji-vscode",
 				"eamodio.gitlens",
-				"Gruntfuggly.todo-tree"
+				"Gruntfuggly.todo-tree",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	}
