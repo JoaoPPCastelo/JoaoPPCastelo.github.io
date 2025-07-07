@@ -18,6 +18,7 @@ This is a story that starts on October 30th, 2017, when i bought my first Raspbe
 
 During the following years, the number of experiments increased as well the number of tools that i wanted to host. On my plans were already WireGuard VPN, Nextcloud, PiHole and Home Assistant to be hosted permanently so I needed more resources and, luckily for me, Raspberry Pi released the 4th iteration of the Raspberry Pi board. Time to go shopping 😎
 
+<a name="cluster-v1"></a>
 ### Cluster v1
 
 On the shopping list were two new RaspberryPi 4 with 4GB of RAM, the SD cards to store the OS, a stack mount system, and SSD and a TP-link router that used to create a network just for the RaspberryPis and connect them via ethernet.
@@ -55,6 +56,7 @@ But, this is not the end...
 
 So it was time to rethink the existing setup and that's where **DaBrain** comes in 🎉
 
+<a name="cluster-v2"></a>
 ### DaBrain (v2)
 
 For about a couple of years have been thinking about recreating the whole system and starting using Kubernetes, but the installation and managing it wasn't simple based on previous experiments. Until i found the [K3s](https://k3s.io/) project.
@@ -80,16 +82,22 @@ And a lot more will come. This is just the beginning of the DaBrain cluster proj
 
 <img src="/assets/images/blog-posts/githug-page-v3/EC135F05-F762-4DF4-A4E3-D730BB6794C8.jpg" alt="DaBrain cluster" width="400">
 
+<a name="cluster-v3"></a>
 ### Fun fact: cluster v1.5
 
 Between the two versions, there was a v1.5 with a Kubernetes installation. That version was created during Covid19 (a lot of time to burn during the lockdown) and relied on a full/native installation of Kubernetes. It was based on the same architecture as V1 plus an old laptop acting as the master node. It was a nice experiment but revealed to be a "good" challenge to make it work and maintain, hence the revert to the V1.
 
+<a name="closing"></a>
 ### Closing 
 
 If you reached this section, wow!! 👏
 It's been such a big adventure creating this kind of HomeLab. Faced a lot of challenges and learned a lot. But still excited to continue this project.
 If you have any question feel free to open a discussion on my [GitHub page](https://github.com/JoaoPPCastelo/JoaoPPCastelo.github.io/discussions).
 
+<br>
+---
+
+<a name="credits"></a>
 ### Credits
 
 Photo by <a href="https://unsplash.com/@lekoarts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">LekoArts</a> on <a href="https://unsplash.com/photos/a-heart-shaped-object-with-a-blue-background-KRxytJLjQ4I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
